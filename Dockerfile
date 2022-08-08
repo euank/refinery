@@ -6,12 +6,12 @@ ARG BUILD_ID=dev
 
 WORKDIR /app
 
+ADD . .
+
 ADD go.mod go.sum ./
 
 RUN go mod download
 RUN go mod verify
-
-ADD . .
 
 RUN CGO_ENABLED=0 \
     GOOS=linux \
