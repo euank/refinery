@@ -17,7 +17,7 @@ require (
 	github.com/honeycombio/libhoney-go v1.15.8
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/json-iterator/go v1.1.12
-	github.com/klauspost/compress v1.15.6
+	github.com/klauspost/compress v1.15.7
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.12.2
 	github.com/rcrowley/go-metrics v0.0.0-20200313005456-10cdbea86bc0
@@ -75,3 +75,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/honeycombio/libhoney-go => ./replace/libhoney

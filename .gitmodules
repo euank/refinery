@@ -1,0 +1,3 @@
+[submodule "libhoney"]
+	path = replace/libhoney
+	url = https://github.com/euank/libhoney-go
